@@ -1,0 +1,322 @@
+/*@media screen do mobile*/
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+/*aplicas comandos que afetam toda a pag*/
+
+body{
+min-width: 400px;
+user-select: none;
+font-family: sans-serif;
+}
+
+/* detemina o posicionamento da img no @media mobile*/
+.img-content{
+text-align: center;
+}
+
+
+/*aplica um fundo na cor blueviolet nos links no @media mobile*/
+.links-content-header{
+background-color: blueviolet;
+}
+
+
+/*aplica um espaço de 15 pixels no fundo blueviolet mo @media mobile*/
+.links-header{
+padding: 15px;
+}
+
+
+/*coloca os links no centro/e tira as decorações padrões no @media mobile*/
+.tag-a-header{
+text-align: center;
+text-decoration: none;
+}
+
+
+/*tira decorações padrões das li que guarda os links e aplica uma fonte e um espaço de 5 pixels entre uma li e outra mo @media mobile*/
+.tag-li-header{
+text-decoration: none;
+display: block;
+padding: 5px;
+font-family: Verdana;
+color: white;
+}
+
+
+/*aplica uma centralização e espaçamento interno no conteúodo principal do main no @media mobile*/
+.main-content-principal{
+text-align: center;
+padding-top: 10px;
+}
+
+/*usado para distanciar o titulo do paragrafo com bottom no @media mobile*/
+.titulo-main-principal{
+margin-bottom: 25px;
+}
+
+
+/*aplicando margens em linha no @media mobile*/
+.paragrafo-main-principal{
+margin-inline: 25px;
+}
+
+/*aplicando margens dos dois lados nos paragrafos do main principal secundario @media mobile*/
+.paragrafo-content-main-principal{
+    margin-inline: 20px;
+}
+
+
+/*aplica margens no container do botão do conteúdo principal do main no @media mobile*/
+.button-content-main-principal{
+margin-top: 30px;
+}
+
+
+/*aplica cores, tira decorações padrões e executa espaço e bordas redondas no fundo do botão do conteúdo principal do main no @media mobile*/
+.button-main-principal{
+color: white;
+text-decoration: none;
+background-color: aqua;
+padding: 15px;
+border-radius: 10px;
+}
+
+
+/*aplicando um fundo de cor cinza clara de todo o main/determinando uma altira no @media mobile*/
+.background{
+background-color: whitesmoke;
+height: 98em;
+}
+
+/**/
+.main-content-principal-secundario{
+    margin-top: 60px;
+}
+
+
+/*aplicado para aplicar a centralização/e cor no fundo do conteúdo do main no meio da tela no @media mobile*/
+.main-content-secundario{
+text-align: center;
+margin-top: 35px;
+}
+
+
+/*aplicando margens entre os container secundario do main principal no @media mobile*/
+.content-main-principal
+{
+    margin-top: 20px;
+}
+
+/*aplicando margens nos subtitulo do main no @media mobile*/
+.subtitulo-content-main{
+margin: 10px 0;
+}
+
+
+/*aplicando margens entre os container do main secundario no @media mobile*/
+.content-main-secundario{
+margin: 20px 16px 0;
+}
+
+
+/*aplicando margens entre para os subtitulos do main secundario no @media mobile*/
+.subtitulo-content-secundario{
+margin: 10px 0;
+}
+
+
+/*aplicando personalição no button do conteúdo do main secundario no @media mobile*/
+.button-content-main-secunadario{
+text-indent: 19px;
+margin-top: 10px;
+text-decoration: none;
+display: block;
+background-color: aqua;
+padding: 15px 0;
+border-radius: 10px;
+width: 109px;
+color:white;
+}
+
+footer{
+    background-color: rgb(66, 142, 145);
+    text-align: center;
+    padding: 20px 0;
+    color: white;
+}
+
+/*dedicado Surface Duo para modificar aoenas o tamanho do background de fundo a cor cinza no @media mobile*/
+@media screen and (min-width:510px){
+    .background{
+        height: 88em;
+    }
+    
+}
+
+/*@media screen de tablets*/
+@media screen and (min-width: 760px){
+
+
+/*aplicando display:flex para fazero posicionamento da imagen e dos links dentro de header no @media tablet*/
+.top-header{
+display: flex;
+flex-direction: row;
+justify-content: space-between;
+}
+
+
+/*retirando o fundo blueviolet do  "@media mobile" para ficar transparent no @media tablet */
+.top-header > .links-content-header{
+background-color: transparent;
+}
+
+
+/*aplicando display:inline-block nos links de header para ficar alinhados na mesma linha e retirar as decorações padrões do html no @media tablet*/
+.tag-a-header{
+display: inline-block;
+}
+
+
+/*aplicando um mero efeito de "border-bottom:1px solid blueviolet" abaixo dos links de headeer no @media tablet*/
+.tag-a-header:hover{
+border-bottom: 3px solid blueviolet;
+}
+
+
+/*aplicando cor blueviolet nos links de header no @media tablet*/
+.tag-li-header{
+color: blueviolet;
+}
+
+/*aplicando um fundo blueviolet com altura de 200 pixels/colocado um espaçamento interno com "padding-top" no @media tablet*/
+.background-760px{
+background-color: blueviolet;
+height: 167px;
+padding-top: 20px;
+}
+
+/*aplicando um color:white no titulo principal do main no @media tablet*/
+.titulo-main-principal{
+color: white;
+font-size: larger;
+}
+
+
+/*aplicando um color:white no paragrafo principal do main no @media tablet*/
+.paragrafo-main-principal{
+color: white;
+margin-inline: 50px;
+}
+
+
+/*aplicando apenas margens laterais no main-content-principal-secundario no @media tablet*/
+.main-content-principal-secundario{
+    margin-inline: 15px;
+    letter-spacing: 1px;
+}
+
+
+/*aplicando uma altura de fundo na cor cinza diferente do @media mobile para o @media tablet*/
+.background{
+height: 75em;
+}
+
+
+/*aplicando display:flex para fazer colunas duplas de dois container no @media tablet*/
+.display-flex-760px{
+display: flex;
+align-items: center;
+justify-content: center;
+}
+
+
+/*aplicando display:flex para os botões ficarem posicionados na direita do monitor no @media tablet*/
+.button-content-secunadario{
+    display: flex;
+    flex-direction: row;
+    justify-content: end;
+}
+}
+
+/*media screen de lapto/desktop*/
+@media screen and (min-width:1000px){
+
+    /*aplicando iagem no media de 1000 pixels e seus atributos de posicionamento no @media desktop*/
+    .background-760px{
+        background-color: transparent;
+        background-image: url(images/bg_topo_1198x670.jpg);
+        background-size: 100%;
+        background-repeat: no-repeat;
+        height: 450px;
+        background-position-x: center;
+        padding: 15px;
+    }
+
+/*aplicando uma altura no fundo de cor cinza que cobre todo o meio da pag no @media desktop*/
+    .background{
+        height: 90em;
+    }
+
+
+    /*aplicando um padding-top de 250px para colocar os titulo/subtitulo no canto inferior da imagem @media desktop*/
+    .titulo-main-principal{
+        padding-top: 250px;
+    }
+
+
+    /*aplicando uma margem dos lado de 75 pixels @media desktop*/
+    .paragrafo-main-principal{
+        margin-inline: 75px;
+    }
+
+
+    /*aplicando margens apenas laterais no nos main-content-secundario no @media desktop*/
+    .main-content-principal-secundario{
+        margin-inline: 20px;
+    }
+
+
+    /*aplicando display:flex para os botões ficarem posicionados na direita do monitor no @media desktop*/
+.button-content-secunadario{
+    display: flex;
+    flex-direction: row;
+    justify-content: end;
+}
+}
+    
+
+/*media screen de telas maiores*/
+@media screen and (min-width:1150px){
+
+    /*aplicando a imagem no @media telas maiores*/
+    .background-760px{
+       background-image: url(images/bg_topo_1600x1374.jpg);
+       background-position: center;
+       background-size: 100%;
+       background-repeat: no-repeat;
+       padding: 15px;
+       height: 600px;
+    }
+
+    /*aplicando posicionamento dos textos dentro da imagem usando o paragrafo-principal como ancora para arrastar os demais no @media tela maiores*/
+    .titulo-main-principal{
+        padding-top: 370px;
+    }
+
+
+    /*determinando altura para o background com fundo na cor cinza no @media tela maiores*/
+    .background{
+        height: 97em;
+    }
+}
+
+
+
+
+
+
