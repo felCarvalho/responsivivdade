@@ -48,7 +48,7 @@ color: white;
 }
 
 /*aplicando um hover nos link do @media mobile*/
-.tag-li-header{
+.tag-li-header:hover{
 background-color: rgb(189, 145, 231);
 }
 
