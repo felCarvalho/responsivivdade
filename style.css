@@ -25,9 +25,9 @@ background-color: blueviolet;
 }
 
 
-/*aplica um espaço de 15 pixels no fundo blueviolet mo @media mobile*/
+/*aplica um espaço de 5 pixels no fundo blueviolet mo @media mobile*/
 .links-header{
-padding: 15px;
+padding: 5px;
 }
 
 
@@ -38,13 +38,18 @@ text-decoration: none;
 }
 
 
-/*tira decorações padrões das li que guarda os links e aplica uma fonte e um espaço de 5 pixels entre uma li e outra mo @media mobile*/
+/*tira decorações padrões das li que guarda os links e aplica uma fonte e um espaço de 10 pixels entre uma li e outra mo @media mobile*/
 .tag-li-header{
 text-decoration: none;
 display: block;
-padding: 5px;
+padding: 10px;
 font-family: Verdana;
 color: white;
+}
+
+/*aplicando um hover nos link do @media mobile*/
+.tag-li-header{
+background-color: rgb(189, 145, 231);
 }
 
 
