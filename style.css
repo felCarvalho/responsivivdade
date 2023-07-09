@@ -198,6 +198,12 @@ border-bottom: 3px solid blueviolet;
 color: blueviolet;
 }
 
+
+/*retirando decorações do @media tablet*/
+    .tag-li-header:hover{
+        background-color: transparent;
+        }
+
 /*aplicando um fundo blueviolet com altura de 200 pixels/colocado um espaçamento interno com "padding-top" no @media tablet*/
 .background-760px{
 background-color: blueviolet;
@@ -251,6 +257,11 @@ justify-content: center;
 /*media screen de lapto/desktop*/
 @media screen and (min-width:1000px){
 
+    /*retirando decorações do @media desktop*/
+    .tag-li-header:hover{
+        background-color: transparent;
+        }
+
     /*aplicando iagem no media de 1000 pixels e seus atributos de posicionamento no @media desktop*/
     .background-760px{
         background-color: transparent;
@@ -297,6 +308,11 @@ justify-content: center;
 
 /*media screen de telas maiores*/
 @media screen and (min-width:1150px){
+
+    /*retirando decorações do @media telas maiores*/
+    .tag-li-header:hover{
+        background-color: transparent;
+        }
 
     /*aplicando a imagem no @media telas maiores*/
     .background-760px{
